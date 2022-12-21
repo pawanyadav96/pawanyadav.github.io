@@ -7,8 +7,9 @@
 
 }
 :root {
-  --bg-color: #020312;
-  --text-color: #fff;
+  --bg-color:transparent;
+
+  --text-color:black;
   --main-color: #eb4a4a;
   --second-color: gray;
   --other-color: #12141c;
@@ -30,14 +31,14 @@ body {
   right: 0;
   width: 100%;
   z-index: 1000;
-  background: transparent;
+  background: black;
   padding: 22px 16%;
   border-bottom: 1px solid transparent;
   transition: all 0.4s ease;
 }
 .navbar.sticky {
   padding: 10px 16%;
-  background: var(--bg-color);
+  background: black;
   border-bottom: 1px solid #0e1630;
 }
 .navbar-heading a {
@@ -78,6 +79,7 @@ body {
   align-items: center;
 }
 .home-text h1 {
+  color: orange;
   margin: 20px 0;
   font-size: var(--h1-font);
   font-weight: bold;
@@ -86,11 +88,12 @@ body {
 }
 
 .home-text h4 {
-  color: white;
+  color:orange;
   font-size: 24px;
   font-weight: 600;
 }
 .home-text h3 {
+  color: orange;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 3rem;
@@ -122,6 +125,7 @@ body {
 
 .home-img img {
   width: 50%;
+  /* border-radius: 30%; */
   
 }
 
@@ -175,11 +179,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  /* border: 1px solid red; */
+  
   width: 70%;
 }
 .Skills_aligner > div {
-  /* border: 1px solid red; */
+  border: 2px solid yellow;
   background-color: white;
   padding: 50px 0;
   color: var(--second-color);
@@ -219,6 +223,7 @@ body {
 }
 
 .project-main {
+ 
   display: grid;
   width: 90vw;
 
@@ -228,6 +233,7 @@ body {
   align-items: center;
 }
 .project-main img {
+
   width: 100%;
 
   border-radius: 10px;
@@ -237,7 +243,7 @@ body {
   margin: auto;
   padding: 0 0 10px 0;
   border-radius: 10px;
-  /* border: 1px solid red; */
+  border: 4px solid yellow;
 
   transition: all 0.4s ease;
 }
@@ -245,6 +251,7 @@ body {
   transform: scale(1.01) translateY(5px);
 }
 .project-body {
+  /* border: 2px solid yellow; */
   margin-left: 20px;
 }
 .project-social {
@@ -289,7 +296,7 @@ body {
 }
 .project-body-heading {
   font-size: 2rem;
-  color: YELLOW
+  color: orange;
 }
 .project-body-desc {
   width: 95%;
